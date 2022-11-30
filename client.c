@@ -43,8 +43,8 @@ int main(int argc, char const* argv[])
     printf("%s\n", buffer);
 
     // closing the connected socket
-     close(client_fd);
-    // printf("closed by client\n");
-    // close(socket);
+     //close(client_fd);
+     printf("closed by client\n");
+     close(socket);
     return 0;
 }
